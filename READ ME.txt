@@ -15,8 +15,4 @@ Note: The program needs to be in the same directory as the "lib" folder in order
 Thank you for using Big T's Nicotine Tracker.
 
 Updates are coming soon!
-Please report any bugs/suggestions to 'tylerlightwood071@gmail.com'
-
-
-
-
+Please report any bugs/suggestions to either the project or 'tylerlightwood071@gmail.com'

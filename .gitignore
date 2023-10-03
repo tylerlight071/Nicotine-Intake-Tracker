@@ -1,0 +1,7 @@
+# Ignore specific files
+nicotineingestion.txt
+main.spec
+
+# Ignore directories
+dist/
+build/
