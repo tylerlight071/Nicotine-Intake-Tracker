@@ -1,11 +1,6 @@
-import sys
-
-sys.path.append('/home/tylerlightwood/PycharmProjects/Vape Tracker 2/venv/lib/python3.10/site-packages/Pillow.libs')
-sys.path.append('/home/tylerlightwood/PycharmProjects/Vape Tracker 2/venv/lib/python3.10/site-packages/Pillow-9.5.0.dist-info')
-sys.path.append('/home/tylerlightwood/PycharmProjects/Vape Tracker 2/nicotineingestion.txt')
-
 import tkinter as tk
 import matplotlib
+import sys
 
 matplotlib.use("TkAgg")
 
@@ -125,11 +120,6 @@ def open_main_window():
 # Create the home screen
 home_screen = tk.Tk()
 home_screen.title("Vape Nicotine Tracker")
-
-# Add a logo
-logo_image = tk.PhotoImage(file="/home/tylerlightwood/PycharmProjects/Vape Tracker 2/logo.png")
-logo_label = tk.Label(home_screen, image=logo_image)
-logo_label.pack()
 
 # Create the buttons
 open_button = tk.Button(home_screen, text="Open Vape Nicotine Tracker", command=open_main_window)
